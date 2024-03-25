@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="./ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="form">
+        <span id="p-login">Registration</span>
+
+        <form action="#">
+            <div class="input-style">
+                <i class="fas fa-user"></i>
+                <input type="text" id="userName" placeholder="Enter your name" required>
+            </div>
+            <div class="input-style">
+                <i class="fas fa-envelope icon"></i>
+                <input type="email" id="Email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-style">
+                <i class="fas fa-lock icon"></i>
+                <input type="password" id="code" class="password" placeholder="Create a password" required>
+            </div>
+            <div class="input-style">
+                <i class="fas fa-lock icon"></i>
+                <input type="password" id="confirmCode" class="password" placeholder="Confirm a password" required>
+            </div>
+
+            <div class="checkbox-text">
+                <div class="checkbox-content">
+                    <input type="checkbox" name="ifAgree"  id="remember">
+                    <label for="remember" class="text">I accepted all terms and conditions</label>
+                </div>
+            </div>
+
+            <button type="submit" id="button">singup</button>
+        </form>
+    </div>
+    
+</body>
+<script src="./login2.js"></script>
+</html>

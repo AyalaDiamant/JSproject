@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet"
+        href="../../../services/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="../../../services/ajex-styile.css">
+    <link rel="stylesheet" href="../../pages/home/home.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+
+<body>
+
+    <div id="logo">
+        <a id="logo-img" href="../../../pages/home/home.html"><img
+                src="../../../pages/home/picture/logo_partyinabox6.webp" alt=""> </a>
+    </div>
+    <img id="colory-line" src="../../pages/home/picture/פס צבעוני.webp" alt="">
+
+
+
+    <p id="categoryCoteret">עגלת הקניות</p>
+
+<!-- תשלום -->
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>טופס תשלום</h2>
+            <form id="paymentForm" autocomplete="off">
+                <input class="inputPat" type="text" id="cardNumber" maxlength="16" placeholder="מספר אשראי" required>
+                <input class="inputPat" type="text" id="cardName" placeholder="שם בעל כרטיס אשראי" required>
+                <input class="inputPat" type="date" id="expirationDate" placeholder="לשימוש עד לתאריך" required>
+                <input class="inputPat" type="text" id="cvv" maxlength="3" placeholder="CVV" required>
+                <input class="inputPat" type="text" id="adress" placeholder="כתובת למשלוח" required>
+                <button class="inputPat" type="submit">אישור ותשלום</button>
+            </form>
+        </div>
+    </div>
+    <div id="div"></div>
+    <div id="divPrice">
+        <div id="price-div">
+            <div class="price-name">מחיר</div>
+            <div id="price"></div>
+            <div class="price-name">ש"ח</div>
+        </div>
+        <button class="buttonPrice" id="deleteCartButton">למחיקת הסל</button>
+        <button class="buttonPrice" id="paymentButton">למעבר לתשלום</button>
+    </div>
+    <img id="colory-line" src="../../pages/home/picture/פס צבעוני.webp" alt="">
+
+    <script src="../../services/jquery-3.6.4.min.js"></script>
+    <script src="../../services/new-ajex.js"></script>
+    <script src="./cart.js"></script>
+    <script src="../home/home.js"></script>
+</body>
+
+</html>

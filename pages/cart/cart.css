@@ -1,0 +1,105 @@
+
+#divPrice{
+  margin-right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  direction: rtl;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.price-name{
+  
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 1%;
+  white-space: nowrap;
+  border-radius: 4%;
+  font-family: 'Segoe UI Semibold';
+}
+
+#price{
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 1%;
+  white-space: nowrap;
+  border-radius: 4%;
+  font-family: 'Segoe UI Semibold';
+}
+
+.buttonPrice{
+  text-align: center;
+  background-color: #363636;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-family: 'Segoe UI Semibold';
+  cursor: pointer;
+  margin-left: 3%;
+  /* border-radius: 10%; */
+}
+
+#price-div{
+  display: flex;
+  border: #000000;
+  border-width: 3%;
+  background-color: #363636;
+  margin-left: 3%;
+  width: 150px;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #888;
+    padding: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 70px;
+    border: 1px solid #888;
+    width: 80%;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .modal.show .modal-content {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .inputPat{
+    margin: 12px;
+  }
+

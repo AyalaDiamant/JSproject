@@ -1,0 +1,129 @@
+
+
+.style {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border-color: rgb(108, 107, 107);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5%;
+}
+
+#div {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.img-styile {
+  padding: 10px;
+  border-color: rgb(193, 191, 191);
+  border-style: solid;
+  border-width: 0.6px;
+  /* border-radius: 4%; */
+}
+
+.name {
+  /* display: flex; */
+  font-family: 'Segoe UI Semibold';
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.price,
+.count {
+  font-family: 'Segoe UI Semibold';
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.button {
+  font-family: 'Segoe UI Semibold';
+  border-color: #7b7a7a;
+  border-style: solid;
+  border-width: 0.6px;
+  color: #fff;
+  font-size: 15px;
+  width: 100px;
+  padding: 3px;
+  border-radius: 6px;
+  background-color: #7b7a7a;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ccc;
+  /* Change to the desired lighter color */
+}
+
+.button2 {
+  white-space: nowrap;
+  font-family: 'Segoe UI Semibold';
+  border-color: #7b7a7a;
+  border-style: solid;
+  border-width: 0.6px;
+  color: #fff;
+  font-size: 15px;
+  width: 100px;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #7b7a7a;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.price-container {
+  padding: 3px;
+  display: inline-block;
+}
+
+.priceD,
+.price {
+  display: inline-block;
+  margin: 0;
+  /* Optional - remove default margin */
+}
+
+i {
+  font-family: 'Segoe UI Semibold';
+  font-size: 10px;
+}
+
+#iconFind {
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  /* padding: 3%; */
+  animation: changeColor 2s infinite alternate;
+}
+
+@keyframes changeColor {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+
+  50% {
+    color: rgb(71, 218, 234);
+  }
+
+  100% {
+    color: rgb(3, 57, 68);
+  }
+}
+
+#FindContent {
+  font-family: 'Segoe UI Semibold';
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  /* margin-left: 40%; */
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
