@@ -1,4 +1,4 @@
-# Party accessories store website🥳🎉🎊
+# Party accessories store website🎊🥳🎉
 
 This project is a responsive and stylishly designed website developed for a party accessories store. The website is built using JavaScript, HTML and CSS to provide a seamless user experience looking for party supplies and event planning services.
 
